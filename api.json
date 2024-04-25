@@ -1,0 +1,39 @@
+{
+    "sabores": [
+        {
+            "id": "1",
+            "nome": "Pizza de Peperoni",
+            "preco": 39.9,
+            "descricao": "Uma pizza muito boa",
+            "promocao": true
+        },
+        {
+            "id": "2",
+            "nome": "Pizza de Calabresa",
+            "preco": 26.9,
+            "descricao": "Uma pizza muito boa",
+            "promocao": true
+        },
+        {
+            "id": "3",
+            "nome": "Pizza de Portuguesa",
+            "preco": 34.9,
+            "descricao": "Uma pizza muito boa",
+            "promocao": true
+        },
+        {
+            "id": "4",
+            "nome": "Pizza de Abacaxi",
+            "preco": 30.9,
+            "descricao": "Uma pizza muito boa",
+            "promocao": false
+        },
+        {
+            "id": "5",
+            "nome": "Pizza de Frango com Catupiry",
+            "preco": 27.9,
+            "descricao": "Uma pizza muito boa",
+            "promocao": false
+        }
+    ]
+}
