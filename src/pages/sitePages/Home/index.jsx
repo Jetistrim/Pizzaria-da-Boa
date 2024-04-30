@@ -20,19 +20,25 @@ const HomeContainer = styled.section`
                 font-weight: bold;
                 color: #6B0504;
             }
-            & div{
+            & .preco{
+                width: 100%;
+                display: flex;
+
+                justify-content: space-between;
+
                 & h6{
                     font-size: 16px;
                     color: #F44E3F;
                     justify-content: space-between;
 
-                    & button{
-                        font-size: 14px;
-                        color: #FFFFFF;
-                        background-color: #001514;
-                        padding: 10px;
-                        border-radius: 5px;
-                    }
+                }
+                & button{
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    background-color: #001514;
+                    padding: 10px;
+                    border-radius: 5px;
+
                 }
             }
         }
@@ -65,7 +71,8 @@ const Home = () => {
                         <h5>{p.nome}</h5>
                         <p>{p.descricao}</p>
                         <div className="preco">
-                            <h6>{p.preco} <button>adicionar</button></h6>
+                            <h6>{p.preco}</h6>
+                            <button>adicionar</button>
                         </div>
                     </li>
                 ))
@@ -82,7 +89,8 @@ const Home = () => {
                         <h5>{p.nome}</h5>
                         <p>p.descricao</p>
                         <div className="preco">
-                            <h6>{p.preco} <button>adicionar</button></h6>
+                            <h6>{p.preco} </h6>
+                            <button>adicionar</button>
                         </div>
                     </li>
                 ))
