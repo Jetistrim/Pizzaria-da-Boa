@@ -63,6 +63,10 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+            <div className="acoes">
+                <NavLink to={'entrar'}>Entrar</NavLink>
+                <button>Carrinho</button>
+            </div>
         </HeaderContainer>
     );
 }
