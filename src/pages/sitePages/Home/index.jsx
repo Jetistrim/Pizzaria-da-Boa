@@ -89,7 +89,7 @@ const Home = () => {
             <ul className="cards">
             {
                 pizzas && pizzasFiltradas.filter(p => p.promocao).map((p, index) => (
-                    <li>
+                    <li key={index}>
                         <img src="" alt="" />
                         <h5>{p.nome}</h5>
                         <p>{p.descricao}</p>
@@ -107,7 +107,7 @@ const Home = () => {
             <ul className="cards">
             {
                 pizzas && pizzas.map((p, index) => (
-                    <li>
+                    <li key={index}>
                         <img src="" alt="" />
                         <h5>{p.nome}</h5>
                         <p>{p.descricao}</p>
